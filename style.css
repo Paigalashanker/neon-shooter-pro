@@ -1,0 +1,68 @@
+body {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+canvas {
+  background: #111;
+  border: 2px solid #fff;
+  margin-top: 10px;
+}
+.dev-footer {
+  background: #0a0a0a;
+  border-top: 2px solid rgba(0, 255, 255, 0.4);
+  margin-top: 30px;
+  padding: 25px 10px;
+  color: #aaa;
+  text-align: center;
+  box-shadow: 0 -2px 15px rgba(0, 255, 255, 0.1);
+}
+.dev-container {
+  max-width: 700px;
+  margin: auto;
+}
+.dev-footer h3 {
+  color: #0ff;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  animation: glowPulse 3s infinite ease-in-out;
+}
+.dev-name {
+  font-size: 16px;
+  color: #ccc;
+}
+.highlight {
+  color: #0ff;
+  font-weight: 600;
+}
+.dev-tech {
+  font-size: 15px;
+  color: #aaa;
+  margin-top: 5px;
+}
+.dev-links {
+  margin-top: 10px;
+}
+.dev-links a {
+  color: #0ff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.dev-links a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+.copyright {
+  font-size: 12px;
+  color: #666;
+  margin-top: 15px;
+}
+@keyframes glowPulse {
+  0% { text-shadow: 0 0 5px #0ff; }
+  50% { text-shadow: 0 0 25px #0ff; }
+  100% { text-shadow: 0 0 5px #0ff; }
+}
